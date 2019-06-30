@@ -9,7 +9,17 @@
 import UIKit
 
 class ChipViewController: UIViewController {
-
+    
+    @IBOutlet weak var billTextField: UITextField!
+    
+    @IBOutlet weak var tipSegementControl: UISegmentedControl!
+    @IBOutlet weak var chipTextField: UITextField!
+    @IBOutlet weak var totalAmountLabel: UILabel!
+    @IBOutlet weak var leftAmountLabel: UILabel!
+    @IBOutlet weak var percentageLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
